@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ftransc",
+    "\\ftransc\\config\\data",
+    "\\ftransc\\core",
+    "\\ftransc\\metadata",
+    "\\static",
+    "\\tests",
+    "\\tests\\fixtures"
+  ],
+  "SelectedNode": "\\tests\\test_utils.py",
+  "PreviewInSolutionExplorer": false
+}
