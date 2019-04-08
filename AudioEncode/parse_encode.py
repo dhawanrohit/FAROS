@@ -47,9 +47,6 @@ def list_dir_contents(path):
             pass
 
     
-def start():
-    path = PATH_TO_PARSE
-    list_dir_contents(path)
 
 if __name__ == "__main__":
-    start()
+    list_dir_contents(PATH_TO_PARSE)
