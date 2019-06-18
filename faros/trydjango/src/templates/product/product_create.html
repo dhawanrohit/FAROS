@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-<form action="." method="GET"> {% csrf_token %}
-    <input type="text" name="title" placeholder="Your title" />
+<form action="." method="GET">{% csrf_token %}
+    {{ form.as_p }}
     <input type="submit" value="Save" />
 </form>
 
 
 {% endblock %}
 
-<!--https://www.youtube.com/watch?v=pMHtofYy_L0&t=475s -->
+<!--https://www.youtube.com/watch?v=-oWIyFYyNQw&list=PLEsfXFp6DpzTD1BD1aWNxS2Ep06vIkaeW&index=27&t=8s -->
