@@ -7,6 +7,8 @@ from .forms import ProductForm
 # Create your views here.
 
 def product_create_view(request):
+  my_new_title = request.POST.get('title')
+  print(my_new_title)
   context = {}
 
   return render(request, "product/product_create.html", context)
